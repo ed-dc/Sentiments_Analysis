@@ -7,14 +7,14 @@
 ## Setup
 
     You can run when creating a new venv with : 
-    ```
+    
     python3 -m venv venv
-    ```
+    
 
     and then you need to install the requirements : 
-    ```
+    
     pip install -r requirement.txt
-    ```
+    
 
 ## DataSet:
 
