@@ -29,5 +29,6 @@ def clean_text(text):
     text = remove_mentions(text)
     text = remove_urls(text)
     text = remove_special_chars(text)
+    text = re.sub(r'\s+', ' ', text) 
 
     return text
